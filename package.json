@@ -1,0 +1,25 @@
+{
+  "name": "dg-cli-demo",
+  "version": "1.0.0",
+  "description": "一个仿vue-cli的简单构建工具的demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tccsg/dg-cli-demo.git"
+  },
+  "author": "tccsg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tccsg/dg-cli-demo/issues"
+  },
+  "homepage": "https://github.com/tccsg/dg-cli-demo#readme",
+  "devDependencies": {
+    "commander": "^2.19.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.1",
+    "metalsmith": "^2.3.0"
+  }
+}

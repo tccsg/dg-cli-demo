@@ -1,0 +1,28 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "email": "{{email}}",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+    "element-ui": "^2.4.11",
+    "vue": "^2.5.17",
+    {{#if dgtable}}
+    "dg-table": "^0.2.0"
+    {{/if}}
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
